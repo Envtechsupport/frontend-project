@@ -1,0 +1,10 @@
+.znect__emptystate-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    width: 100%;
+    height: 100%;
+}

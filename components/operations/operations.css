@@ -1,0 +1,28 @@
+.znect__operations-container { 
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    font-family: var(--font-family);
+    overflow: scroll;
+}
+
+.znect__operations-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.znect__operations-info__title {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.znect__operations-info__title h4 {
+    font-weight: 600;
+}
+
+.znect__operations-info__title p {
+    font-size: 14px;
+}

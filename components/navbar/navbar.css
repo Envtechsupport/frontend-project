@@ -1,0 +1,36 @@
+.znect__navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    height: 64px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: fixed;
+    z-index: 500;
+}
+
+.znect__navbar-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 280px;
+    top: 20px;
+}
+
+.znect__navbar-container p {
+    font-family: var(--font-family);
+    font-weight: 600;
+    color: #909090;
+}
+
+.znect__navbar-profile p {
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 5px;
+    color: #000;
+}

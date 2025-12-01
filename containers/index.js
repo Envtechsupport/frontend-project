@@ -1,0 +1,10 @@
+export { default as Login } from "./login/Login";
+export { default as Dashboard } from "./dashboard/Dashboard";
+export { default as Orders } from "./orders/Orders";
+export { default as Warehouses } from "./warehouses/Warehouses";
+export { default as Products } from "./products/Products";
+export { default as OrderDetails } from "./orderDetails/OrderDetails";
+export { default as Settings } from "./settings/Settings";
+export { default as ZnectOperations } from "./znectoperations/ZnectOperations";
+export { default as InventoryList } from "./inventorylist/InventoryList";
+export { default as Reports } from "./reports/Reports";

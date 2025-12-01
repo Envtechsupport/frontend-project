@@ -1,0 +1,83 @@
+.znect__activities-container {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.znect__activities-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.znect__activities-info__title {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.znect__activities-info__title h4 {
+  font-weight: 600;
+}
+
+.znect__activities-info__title p {
+  font-size: 14px;
+}
+
+.znect__activity-box__table {
+  margin-top: 10px;
+  height: 370px;
+  overflow: scroll;
+}
+
+.znect__activity-box__page-controller {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.znect__activity-box__page-controller p {
+  color: #909090;
+  font-family: var(--font-family);
+  margin-right: 10px;
+}
+
+.znect__activity-box__page-controller button {
+  display: flex;
+  border: none;
+  background: transparent;
+  margin-right: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.znect__activities-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.znect__activities-info__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.znect__activity-box__items-per-page {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Adds space between the label and the select box */
+}
+
+.znect__activity-box__items-per-page label {
+  font-size: 14px;
+  color: #909090;
+}
+
+.znect__activity-box__items-per-page select {
+  padding: 4px 8px;
+  font-size: 14px;
+}

@@ -1,0 +1,83 @@
+.znect__report-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #f3f4f9;
+    overflow: scroll;
+}
+
+.znect__report-container .MuiInputLabel-root {
+    text-align: center;
+    width: 100%; /* Ensures label takes full width for centering */
+    display: flex;
+    justify-content: left;
+}
+
+.znect__report-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.znect__report-title h2 {
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.znect__report-controller {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: var(--font-family);
+    margin-top: 14px;
+}
+
+.znect__report-controller__contents h4 {
+    font-weight: 600;
+}
+
+.znect__report-controller__contents p {
+    font-size: 16px;
+}
+
+.znect__report-box__table-content {
+    margin-top: 10px;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.znect__report-box-table {
+    flex: 1 1 90%;
+}
+
+.znect__report-container__page-controller {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1 1 10%;
+    justify-content: flex-end;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.znect__report-container__page-controller p {
+    color: #909090;
+    font-family: var(--font-family);
+    margin-right: 10px;
+}
+.znect__report-container__page-controller button {
+    display: flex;
+    border: none;
+    background: transparent;
+    margin-right: 10px;
+    align-items: center;
+    cursor: pointer;
+}

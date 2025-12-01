@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    font-family: var(--font-family);
+    font-weight: 500;
+}
+  
+  /* Style the table cells */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+td button {
+    border: none;
+    background: transparent;
+    width: 50%;
+}
+  
+  /* Style alternating rows */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+  /* Hover effect on rows */
+tr:hover {
+    background-color: #f2f2f2;
+}

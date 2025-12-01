@@ -1,0 +1,40 @@
+.znect__packageinput-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.znect__packageinput-control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.znect__packageinput-addbtn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.znect__packageinput-control p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.znect__packageinput-control button {
+    background: white;
+    border: none;
+    cursor: pointer;
+}
+
+.znect__packageinput-addbtn button{
+    background: white;
+    border: 0.5px solid #909090;
+    padding: 8px;
+    border-radius: 10px;
+}
