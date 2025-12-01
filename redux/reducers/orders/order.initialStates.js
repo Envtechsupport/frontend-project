@@ -1,0 +1,15 @@
+export default {
+  isLoading: false,
+  orderList: [],
+  total: null,
+  filterOrders: [],
+  orderDetail: null,
+  errorMsg: null,
+  successMsg: null,
+  errorSeverity: "error",
+  activities: null,       
+  activitiesLoading: false,  
+  activitiesError: null,
+  rates:[],
+  labels: null,
+};
