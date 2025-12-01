@@ -1,0 +1,4 @@
+.znect__permission-container {
+    display: flex;
+    flex-direction: column;
+}

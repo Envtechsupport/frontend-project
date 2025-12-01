@@ -1,0 +1,29 @@
+.znect__loginform_user {
+    padding: 20px 0 0 0;
+}
+
+.znect__loginform_pass {
+    padding: 10px 0 20px 0;
+}
+
+.znect__loginform input[type="text"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  padding: 8px;
+  width: 90%;
+  height: 35px;
+}
+
+.znect__loginform button {
+    background: #FC5C7D;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6A82FB, #FC5C7D);
+    border: none;
+    padding: 10px 5px 10px 5px;
+    width: 40%;
+    border-radius: 10px;
+    color: white;
+}

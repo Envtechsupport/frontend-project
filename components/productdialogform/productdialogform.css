@@ -1,8 +1,0 @@
-.znect__product-dialog__container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start; /* or space-around for a balanced layout */
-    align-items: center;
-    gap: 16px; /* Adjust this to control spacing between elements */
-    padding: 10px; /* Fine-tune for layout spacing */
-}
